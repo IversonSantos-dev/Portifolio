@@ -9,4 +9,8 @@
 - [x] Exportar a versão consolidada para IversonSantos-dev/Portifolio.
 - [x] Atualizar LinkedIn, e-mail e acesso ao Sistema de Separação de Produtos.
 - [x] Atualizar o link e o rótulo de acesso da Fintrack.
-- [ ] Exportar a atualização da Fintrack para IversonSantos-dev/Portifolio.
+- [x] Exportar a atualização da Fintrack para IversonSantos-dev/Portifolio.
+- [x] Reposicionar e melhorar a leitura do bloco Campo de atuação no hero.
+- [x] Substituir o I do monograma por um cursor de digitação animado.
+- [x] Corrigir o cursor para uma barra vertical simples, sem base horizontal.
+- [ ] Exportar as correções recentes de marca para IversonSantos-dev/Portifolio.
