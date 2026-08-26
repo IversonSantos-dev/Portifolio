@@ -2,85 +2,79 @@
 
 ## Três abordagens consideradas
 
-### 1. Operações em Movimento
+### 1. Caderno de Produto
+**Muito breve:** Um portfólio editorial que trata cada projeto como um estudo de caso de produto, com narrativa clara entre problema, solução e impacto. O tom é técnico, próximo e deliberadamente humano.
 
-**Muito breve:** Um portfólio com linguagem editorial de produto, inspirado em sistemas, mapas de fluxo e dashboards premium. A intenção é transmitir domínio técnico sem reduzir o trabalho a uma coleção de cards genéricos.
+**Probabilidade:** 0,07
 
-**Probabilidade:** 0.07
+### 2. Terminal Contemporâneo
+**Muito breve:** Uma leitura inspirada em ferramentas de engenharia, com superfícies escuras, dados em primeiro plano e sinais visuais precisos. A experiência reforça o perfil de construtor de sistemas.
 
-### 2. Estúdio de Casos Digitais
+**Probabilidade:** 0,03
 
-**Muito breve:** Uma direção clara e clara, em tons de papel, grafite e verde esmeralda, com foco em textos de case study e ritmo de revista. A intenção é aproximar desenvolvimento e pensamento estratégico.
+### 3. Arquitetura Solar
+**Muito breve:** Composições luminosas, tipografia expressiva e blocos assimétricos que traduzem clareza e ambição. O portfólio parece uma publicação de design orientada a resultados.
 
-**Probabilidade:** 0.04
-
-### 3. Interface Arquitetada
-
-**Muito breve:** Uma estética de blueprint contemporâneo, com grades técnicas, tipografia precisa e microanimações discretas. A intenção é reforçar engenharia de produto e atenção aos detalhes.
-
-**Probabilidade:** 0.09
-
----
+**Probabilidade:** 0,09
 
 ## Abordagem escolhida: Operações em Movimento
 
 ### Movimento de design
 
-**Editorial de produto contemporâneo**, combinando a confiança de um relatório técnico com o ritmo visual de um estúdio digital. A página deve se comportar como uma introdução a cases: expressiva no primeiro impacto, objetiva na informação e detalhista nas interações.
+**Editorial técnico contemporâneo** que preserva a direção visual existente no arquivo de origem: grafite azulado, lavanda, azul-glacial, assimetria e sinais de sistemas em movimento. Os destaques funcionam como estudos de caso de produto, e não como cartões genéricos.
 
 ### Princípios centrais
 
-1. **Produto antes de ornamento.** Elementos decorativos devem sugerir fluxo, conexão ou sistema; nunca existir apenas para preencher espaço.
-2. **Hierarquia muito explícita.** Cada seção deve permitir uma leitura rápida por escaneamento e recompensar quem lê com profundidade.
-3. **Densidade controlada.** O site deve ter substância técnica sem parecer uma parede de badges ou uma lista de currículos.
-4. **Movimento com propósito.** Transições curtas devem indicar foco, avanço ou relação entre elementos, respeitando redução de movimento.
+1. **Problema antes da interface:** todo destaque apresenta a necessidade concreta que motivou a construção do sistema.
+2. **Hierarquia narrativa:** os dois projetos em destaque ocupam uma composição mais ampla e guiam a leitura antes do conjunto dos demais trabalhos.
+3. **Contraste com propósito:** superfícies de grafite, tipografia clara, lavanda e azul-glacial tornam a informação técnica legível e memorável.
+4. **Detalhe funcional:** linhas de caderno, rótulos de índice e marcas de processo estruturam a página sem competirem com o conteúdo.
 
 ### Filosofia de cor
 
-O fundo será **grafite azulado**, quase preto, para estabelecer concentração e contraste. Um branco mineral suaviza textos longos; lavanda elétrica e azul-glacial marcam estados, CTAs e linhas de fluxo. Cores auxiliares individuais aparecem apenas nos cards para preservar a leitura por domínio: planejamento em lavanda, logística em âmbar, comércio em terracota, operações em azul, finanças em verde e memórias em rosa.
+O grafite azulado sustenta profundidade e confiança para a leitura técnica. A lavanda introduz energia e autoria, enquanto o azul-glacial sinaliza conectividade e evolução. A cor assinatura é **Pulso Lavanda — #A78BFA**, aplicada a ações, indicadores e marcos de processo.
 
 ### Paradigma de layout
 
-Evitar uma página completamente centralizada. O hero terá uma coluna editorial ampla e um painel lateral de "sistema em movimento" com uma composição assimétrica de cartões, linhas e indicadores. As seções alternarão entre faixas de leitura, grids deslocados e módulos de dados, preservando linhas de alinhamento recorrentes.
+Em vez de uma grade centralizada de cartões idênticos, a página funciona como uma **linha editorial vertical**: abertura ampla, uma faixa de projetos selecionados com composição assimétrica e, depois, os demais projetos em uma sequência compacta. Em telas menores, a hierarquia é preservada por ordem de leitura, sem esconder contexto.
 
 ### Elementos de assinatura
 
-1. **Linha de sinal:** um traço com ponto luminoso que percorre divisores e representa a passagem de ideia a produto.
-2. **Molduras de sistema:** cantos recortados e bordas finas em painéis, sem excesso de arredondamento.
-3. **Índices editoriais:** numerais monoespaçados e rótulos em caixa alta para seções, tecnologias e categorias.
+1. Réguas finas, ruído em grade e pequenos rótulos numéricos para indicar seções e categorias.
+2. Chips de problema, sistema e impacto que resumem o caso de uso.
+3. Molduras técnicas recortadas com detalhe lavanda e azul-glacial nos projetos prioritários.
 
 ### Filosofia de interação
 
-Interações devem parecer instrumentais. O hover nos projetos eleva a superfície apenas alguns pixels, acende a linha de borda e revela um cursor direcional. O menu troca de estado ao rolar, preservando contraste. CTAs têm resposta tátil pequena no clique e não dependem de movimento para serem compreendidos.
+As interações devem apoiar a exploração: links e ações revelam direção com sublinhados deslizantes, os projetos elevam discretamente no hover e os controles têm retorno tátil breve. Nada deve parecer decorativo ou competir com a leitura.
 
 ### Animação
 
-Entradas em cascata de 40 a 70 ms entre itens de um mesmo bloco, usando apenas opacidade e transformação. O painel do hero pode ter pontos em deslocamento lento ao longo de linhas, com duração acima de 8 segundos, sem loops chamativos. Aplicar `prefers-reduced-motion` para reduzir todas as animações não essenciais.
+Elementos entram por opacidade e leve deslocamento vertical em cascata, sempre abaixo de 300 ms. Imagens usam uma aproximação discreta no hover; botões respondem com escala de 0,97 no clique. A experiência respeita `prefers-reduced-motion`.
 
 ### Sistema tipográfico
 
-**Space Grotesk** para títulos, navegação e números de seção; **Manrope** para corpo e microcopy; **JetBrains Mono** para tecnologia, rótulos e metadados. Os títulos devem explorar contrastes de peso e tamanhos, usando blocos de linha bem definidos, enquanto o texto de corpo preserva legibilidade com comprimento moderado.
+**Manrope** é usada no texto funcional pela legibilidade; **Space Grotesk** aparece em títulos e números de impacto, reforçando o gesto técnico. **JetBrains Mono** organiza rótulos, índices e sinais de sistema. Títulos grandes usam peso 600–700 e corpo usa 400–500, com entrelinhas confortáveis e frases curtas.
 
 ### Essência da marca
 
-**Posicionamento:** Desenvolvimento Full Stack para transformar fluxos complexos em produtos digitais mais claros, úteis e prontos para evoluir.
-
-**Personalidade:** Precisa, curiosa e orientada a produto.
+**Portfólio de produtos e sistemas digitais construídos para eliminar atrito em operações reais, para pessoas que valorizam clareza e execução.** Personalidade: **estratégica, direta e inventiva**.
 
 ### Voz da marca
 
-Headlines devem ser diretas, com ambição concreta. CTAs devem convidar para uma ação específica, sem frases promocionais vazias. Exemplos: **“Transformo processo em produto.”** e **“Veja como cada solução foi arquitetada.”**
+Headlines descrevem resultado ou tensão de mercado; CTAs conduzem à próxima leitura sem frases genéricas. Exemplos: “Quando o processo manual vira produto.” e “Ver o caso completo”.
 
-### Wordmark e símbolo
+### Wordmark e logo
 
-O wordmark será **IV. SANTOS**, com o ponto funcionando como nó de um sistema. O símbolo é formado pelas letras **I** e **S** abstraídas em dois módulos conectados por uma linha, criando um ícone compacto e reconhecível sem depender de texto.
+O monograma “IS” deve lembrar duas colunas de um diagrama de sistema: traço geométrico em branco-gelo, corte interno lavanda e sinal azul-glacial, com leitura nítida mesmo em tamanho reduzido. O nome permanece como uma assinatura tipográfica, nunca como logotipo padrão.
 
-### Cor de assinatura
+## Decisão de manutenção
 
-**Pulso Lavanda — `#A78BFA`**. Um violeta de alta definição usado em CTAs, foco, índices ativos e pontos de conexão.
+O arquivo recebido é a **referência de identidade visual** do portfólio. Por isso, a manutenção preserva a linguagem “Operações em Movimento” já estabelecida, mas atualiza as imagens perdidas por assets armazenados de forma durável e promove “Casamento em Ordem” e “Sistema de Separação de Produtos” para uma faixa prioritária de estudos de caso.
 
 ## Style Decisions
 
-- A **linha de sinal** é um elemento recorrente: deve conectar índices, divisores, metadados e momentos de CTA em toda a página, e não permanecer restrita ao hero.
-- Os projetos devem se comportar como **módulos compactos de case**, deixando visíveis domínio, problema operacional, sistema proposto e sinal de valor antes da stack.
-- As superfícies de sistema devem priorizar **bordas finas, recortes técnicos, índices monoespaçados e destaques de aresta**. Cantos muito arredondados são exceção, não a linguagem predominante.
+- O monograma IS atua como uma assinatura de diagrama de sistema na navegação e no rodapé, com estrutura em branco-gelo, cortes em Pulso Lavanda e azul-glacial.
+- Cada case prioritário traz um artefato de produto: fluxo integrado de convites, convidados e PIX no Casamento em Ordem; consulta de SKU e base de dados centralizada no Sistema de Separação de Produtos.
+- Pulso Lavanda (`#A78BFA`) é a cor expressiva única de ações, filtros, marcadores e pulsos. Azul-glacial atua somente como sinal técnico secundário.
+- Uma espinha editorial discreta conecta as seções principais para que a página seja percebida como um único sistema em movimento.
