@@ -6,4 +6,7 @@
 - [x] Confirmar a aplicação de IversonSantos.dev no cabeçalho e salvar a versão.
 - [x] Confirmar a aplicação de IversonSantos.dev no rodapé e salvar a versão.
 - [x] Registrar a versão consolidada das alterações de identidade visual.
-- [ ] Exportar a versão consolidada para IversonSantos-dev/Portifolio.
+- [x] Exportar a versão consolidada para IversonSantos-dev/Portifolio.
+- [x] Atualizar LinkedIn, e-mail e acesso ao Sistema de Separação de Produtos.
+- [x] Atualizar o link e o rótulo de acesso da Fintrack.
+- [ ] Exportar a atualização da Fintrack para IversonSantos-dev/Portifolio.
