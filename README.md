@@ -2,7 +2,7 @@
 
 > Portfólio pessoal de **Iverson Santos**, desenvolvedor Full Stack focado em transformar fluxos complexos em produtos digitais claros, úteis e preparados para evoluir.
 
-O projeto apresenta uma seleção de soluções para planejamento, logística, e-commerce, finanças e colaboração. A interface foi concebida como um relatório editorial de produto: combina uma narrativa de casos, linguagem visual de sistemas e interações discretas para evidenciar tanto a experiência de uso quanto a lógica que sustenta cada aplicação.
+O projeto apresenta uma seleção de soluções para planejamento, logística, e-commerce, finanças e colaboração. A interface foi concebida como um relatório editorial de produto: combina uma narrativa visual clara, informações úteis e fluxos de navegação fáceis de consumir.
 
 ## Visão geral
 
@@ -18,9 +18,10 @@ O projeto apresenta uma seleção de soluções para planejamento, logística, e
 | Projeto | Foco | Demonstração | Código / documentação |
 | --- | --- | --- | --- |
 | **Casamento em Ordem** | Planejamento de casamentos, convidados, finanças e presentes. | [Acessar site](https://casamentoemordem.com.br/) | [README](https://github.com/IversonSantos-dev/CasamentoemOrdem-README) |
+| **Mimos Ateliê** | Catálogo premium de joalheria sacra, centralização de mercadorias e pedidos automáticos via WhatsApp. | [Repositório](https://github.com/IversonSantos-dev/mimos_atelie) | [GitHub](https://github.com/IversonSantos-dev/mimos_atelie) |
 | **Separação de Produto** | Otimização de picking, conferência e controle de estoque. | [Acessar demo](https://separacaoprodu.lovable.app/) | [GitHub](https://github.com/IversonSantos-dev/separacaoprodu) |
 | **Velas Aromáticas** | Catálogo e experiência de e-commerce para produtos artesanais. | [Acessar site](https://velaaromaticas.netlify.app) | [GitHub](https://github.com/IversonSantos-dev/VelasAromaticas) |
-| **DigitalMarket** | Marketplace de produtos digitais e físicos com catálogo, pagamento e downloads protegidos. | [Acessar site](https://digitalmarketin.lovable.app/) | [GitHub](https://github.com/IversonSantos-dev/DigitalMarket) |
+| **DigitalMarket** | Marketplace de produtos digitais e físicos com catálogo, pagamento e downloads protegidos. | [Acessar site](https://digitalmarketin.lovable.app/) | [GitHub](https://github.com/IversonSantos-dev/digitalmarket) |
 | **Fintrack** | Gestão financeira pessoal com acompanhamento de gastos e orçamentos. | [Acessar demo](https://fintrackfinancas.lovable.app/) | [GitHub](https://github.com/IversonSantos-dev/fintrack-digital-home) |
 | **Compartilhando Memórias** | Galeria colaborativa com upload por QR Code e visualização em tempo real. | [Acessar demo](https://compartilhandomemorias.lovable.app) | [GitHub](https://github.com/IversonSantos-dev/compartilhandomemorias) |
 
@@ -39,7 +40,7 @@ Home
 └── Footer
 ```
 
-Os cards de projetos usam cor de domínio, metadados monoespaçados e uma estrutura de case compacta. O sistema visual mantém linhas de sinal, bordas sutis e recortes técnicos como elementos recorrentes da navegação visual.
+Os cards de projetos usam cor de domínio, metadados monoespaçados e uma estrutura de case compacta. O sistema visual mantém linhas de sinal, bordas sutis e recortes técnicos como elementos recorrentes para reforçar a narrativa de operação e impacto.
 
 ## Tecnologias
 
@@ -78,7 +79,7 @@ Depois, acesse o endereço exibido pelo Vite, normalmente `http://localhost:3000
 
 ## Personalização
 
-Os dados dos projetos ficam no início de `client/src/pages/Home.tsx`. Para adicionar ou alterar um case, atualize o objeto correspondente com título, categoria, contexto do problema, sistema, resultado, tecnologias e links.
+Os dados dos projetos ficam no início de `client/src/pages/Home.tsx`. Para adicionar ou alterar um case, atualize o objeto correspondente com título, categoria, contexto do problema, sistema, resultado e stack tecnológica.
 
 As decisões de identidade visual estão registradas em [`ideas.md`](./ideas.md). A paleta, tipografia e os componentes de moldura técnica estão centralizados em `client/src/index.css`.
 
