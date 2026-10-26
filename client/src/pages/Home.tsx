@@ -1,51 +1,3 @@
-import { useEffect, useMemo, useState } from "react";
-import { motion, useReducedMotion } from "framer-motion";
-import {
-  ArrowDownRight,
-  ArrowRight,
-  ArrowUpRight,
-  Braces,
-  CalendarDays,
-  Check,
-  ChevronRight,
-  CircleDot,
-  Clock3,
-  Code2,
-  Database,
-  ExternalLink,
-  Github,
-  Mail,
-  Menu,
-  Network,
-  PackageSearch,
-  ServerCog,
-  Sparkles,
-  X,
-} from "lucide-react";
-import { CaseArtifact } from "@/components/CaseArtifact";
-import { SystemMark } from "@/components/SystemMark";
-
-type Project = {
-  title: string;
-  index: string;
-  category: string;
-  group: "Produto" | "Operações" | "Finanças" | "Experiência";
-  tagline: string;
-  description: string;
-  problem: string;
-  system: string;
-  outcome: string;
-  stack: string[];
-  repoUrl: string;
-  demoUrl?: string;
-  demoLabel?: string;
-  accent: string;
-  accentSoft: string;
-  status: "Live" | "Preview" | "Em evolução";
-  featured?: boolean;
-  proof?: { label: string; value: string }[];
-};
-
 const projects: Project[] = [
   {
     index: "01",
@@ -54,7 +6,7 @@ const projects: Project[] = [
     group: "Experiência",
     tagline: "Planejamento de casamento, organizado de ponta a ponta.",
     description:
-      "Uma plataforma construída para ocupar um espaço pouco atendido no mercado: reunir criação livre de convites, lista de convidados e presentes em um único fluxo. Os noivos recebem os pre[...]
+      "Uma plataforma construída para ocupar um espaço pouco atendido no mercado: reunir criação livre de convites, lista de convidados e presentes em um único fluxo. Os noivos recebem organização, clareza e menos fricção ao planejar cada etapa.",
     problem: "Convites, convidados e presentes dispersos em ferramentas distintas",
     system: "Hub integrado para criar, convidar, confirmar e presentear",
     outcome: "Mais autonomia para os noivos e menos etapas para os convidados",
@@ -79,7 +31,7 @@ const projects: Project[] = [
     group: "Produto",
     tagline: "Catálogo premium com pedidos mais rápidos e organização do estoque.",
     description:
-      "Uma vitrine digital para expor peças exclusivas, centralizar o catálogo e simplificar a rotina de pedidos. O projeto foi pensado para dar mais visibilidade aos produtos e reduzir a dependência do atendimento manual por WhatsApp.",
+      "Uma vitrine digital para expor peças exclusivas, centralizar o catálogo e simplificar a rotina de pedidos. O projeto foi pensado para dar mais visibilidade aos produtos e reduzir a dependência de atendimento manual por WhatsApp.",
     problem: "Pedidos e controle de mercadorias dispersos, com baixa visibilidade do catálogo e atendimento manual.",
     system: "Catálogo digital centralizado, gestão de produtos e fluxo de pedido direto para WhatsApp.",
     outcome: "Clientes têm uma melhor visão das peças e os vendedores conseguem receber e organizar pedidos com mais rapidez.",
@@ -102,7 +54,7 @@ const projects: Project[] = [
     group: "Operações",
     tagline: "Dados de produto disponíveis para acelerar cada separação.",
     description:
-      "Um sistema que transforma uma consulta antes lenta e manual em uma operação orientada por dados. Com o banco de produtos disponível em um único lugar, a equipe localiza as informações[...]
+      "Um sistema que transforma uma consulta antes lenta e manual em uma operação orientada por dados. Com o banco de produtos disponível em um único lugar, a equipe localiza informações, reduz retrabalho e acelera a separação na operação diária.",
     problem: "Dados de produto dependentes de busca e conferência manual",
     system: "Base centralizada e pesquisável para a rotina de separação",
     outcome: "Menos tempo operacional e uma etapa mais automática",
