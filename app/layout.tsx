@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Iverson Santos — Desenvolvedor de Software",
@@ -90,9 +90,7 @@ export const metadata: Metadata = {
     description:
       "Cases reais em produção com Next.js 15, React, TypeScript e alta performance.",
     creator: "@iversonsantos",
-    images: [
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
-    ],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
