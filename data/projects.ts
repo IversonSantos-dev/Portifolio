@@ -217,9 +217,9 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ["React", "TypeScript", "Vite", "MSW", "Tailwind CSS"],
     featured: true,
-    thumbnail: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=1200&q=80",
-    heroImage: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=1600&q=85",
-    previewPopImage: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=600&q=80",
+    thumbnail: "/kurionft.jpg",
+    heroImage: "/kurionft.jpg",
+    previewPopImage: "/kurionft.jpg",
     liveUrl: "https://desafio-frontend-psi.vercel.app/",
     githubUrl: "https://github.com/IversonSantos-dev/Desafio_frontend",
     status: "Live"
