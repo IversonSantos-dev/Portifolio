@@ -262,9 +262,9 @@ export const PROJECTS: Project[] = [
     ],
     techStack: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Prisma", "Supabase", "SQLite", "Vitest"],
     featured: true,
-    thumbnail: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=1200&q=80",
-    heroImage: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=1600&q=85",
-    previewPopImage: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=600&q=80",
+    thumbnail: "/dashboardmercearia.jpg",
+    heroImage: "/dashboardmercearia.jpg",
+    previewPopImage: "/dashboardmercearia.jpg",
     liveUrl: "https://dashboardmercearia.netlify.app/",
     githubUrl: "https://github.com/IversonSantos-dev/DashboardMercearia",
     status: "Live"
