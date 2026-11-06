@@ -9,8 +9,9 @@ export type ProjectCategory =
   | "Planejamento de eventos"
   | "Joalheria sacra e artesanato"
   | "Logística e estoque"
-  | "E-commerce artesanal"
+  | "Automação comercial e POS"
   | "NFT & Web3 Marketplace"
+  | "E-commerce artesanal"
   | "Finanças pessoais"
   | "Galeria colaborativa";
 
@@ -25,8 +26,9 @@ export interface Project {
     | "Planejamento de eventos"
     | "Joalheria sacra e artesanato"
     | "Logística e estoque"
-    | "E-commerce artesanal"
+    | "Automação comercial e POS"
     | "NFT & Web3 Marketplace"
+    | "E-commerce artesanal"
     | "Finanças pessoais"
     | "Galeria colaborativa";
   year: string;
@@ -223,9 +225,54 @@ export const PROJECTS: Project[] = [
     status: "Live"
   },
   {
+    id: "dashboard-mercearia",
+    slug: "dashboard-mercearia",
+    number: "05",
+    title: "Mercearia POS & Dashboard",
+    subtitle: "Automação Comercial, Frente de Caixa & Inventário P7",
+    tagline: "Frente de caixa ágil, baixa inteligente por valor-alvo e conciliação contábil.",
+    category: "Automação comercial e POS",
+    year: "2025",
+    role: "Desenvolvedor Full Stack",
+    timeline: "Produção ativa",
+    client: "Comércio Varejista & Mercearia",
+    overview:
+      "Sistema full-stack de automação comercial e frente de caixa (POS) mobile-first com algoritmo inteligente de baixa por valor-alvo, controle diário de vendas discriminado (Cartão vs. Dinheiro), conciliação fiscal mensal e ingestão de inventário no padrão oficial Livro de Inventário Modelo P7.",
+    challenge:
+      "Varejos locais enfrentam gargalos no fechamento de caixa, erros de arredondamento monetário, lentidão na conferência de estoques extensos e interrupções nas vendas quando a conexão com a internet oscila.",
+    solution:
+      "Desenvolvimento de uma solução com precisão monetária em centavos inteiros (BigInt/Int, sem drift de ponto flutuante), arquitetura híbrida offline-first com sincronização em nuvem via Supabase/Prisma, algoritmo de baixa automática de múltiplos produtos e suíte de mais de 400 testes automatizados.",
+    architecture: [
+      "Next.js 15 App Router + React 19 com Server Components",
+      "Banco local com SQLite (WAL Mode) via Prisma ORM e dual-write no Supabase (PostgreSQL)",
+      "Algoritmo de otimização combinatória para baixa inteligente de estoque",
+      "Processamento e parser de planilhas contábeis P7 (.xlsx / .csv) via SheetJS",
+      "Suíte robusta com mais de 400 testes unitários e de integração com Vitest"
+    ],
+    impact: [
+      "Operação de caixa ininterrupta com arquitetura resiliente offline-first.",
+      "Fechamento e conciliação diária de vendas (dinheiro/cartão) em segundos.",
+      "Confronto fiscal automatizado entre notas fiscais de entrada e saídas do caixa.",
+      "Zero discrepância financeira através de aritmética estrita em centavos inteiros."
+    ],
+    metrics: [
+      { label: "Precisão", value: "Centavos (Zero drift)" },
+      { label: "Testes", value: "404 testes Vitest" },
+      { label: "Operação", value: "Offline-First" }
+    ],
+    techStack: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Prisma", "Supabase", "SQLite", "Vitest"],
+    featured: true,
+    thumbnail: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=1200&q=80",
+    heroImage: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=1600&q=85",
+    previewPopImage: "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=600&q=80",
+    liveUrl: "https://dashboardmercearia.netlify.app/",
+    githubUrl: "https://github.com/IversonSantos-dev/DashboardMercearia",
+    status: "Live"
+  },
+  {
     id: "velas-aromaticas",
     slug: "velas-aromaticas",
-    number: "05",
+    number: "06",
     title: "Velas Aromáticas",
     subtitle: "Catálogo Sensorial de Produtos Artesanais",
     tagline: "Catálogo sensorial para produtos feitos à mão.",
@@ -268,7 +315,7 @@ export const PROJECTS: Project[] = [
   {
     id: "fintrack",
     slug: "fintrack",
-    number: "06",
+    number: "07",
     title: "Fintrack",
     subtitle: "Dashboard de Gestão Financeira Pessoal & Residencial",
     tagline: "Um dashboard para enxergar melhor cada decisão financeira.",
@@ -311,7 +358,7 @@ export const PROJECTS: Project[] = [
   {
     id: "compartilhando-memorias",
     slug: "compartilhando-memorias",
-    number: "07",
+    number: "08",
     title: "Compartilhando Memórias",
     subtitle: "Galeria Privada & Colaborativa para Eventos",
     tagline: "Fotos compartilhadas, do QR Code à memória coletiva.",

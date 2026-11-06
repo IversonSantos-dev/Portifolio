@@ -27,9 +27,10 @@ Portfólio moderno, responsivo, performático e minimalista desenvolvido com est
 | **02** | **Mimos Ateliê** | Joalheria sacra e artesanato | [GitHub](https://github.com/IversonSantos-dev/mimos_atelie) | [Site Oficial](https://mimosatelie.netlify.app/) | `Live` |
 | **03** | **Sistema de Separação de Produtos** | Logística e estoque | [GitHub](https://github.com/IversonSantos-dev/separacaoprodu) | [Demo](https://separacaoprodu.lovable.app/) | `Em evolução` |
 | **04** | **Kurio — NFT Marketplace** | NFT & Web3 Marketplace | [GitHub](https://github.com/IversonSantos-dev/Desafio_frontend) | [Demo Vercel](https://desafio-frontend-psi.vercel.app/) | `Live` |
-| **05** | **Velas Aromáticas** | E-commerce artesanal | [GitHub](https://github.com/IversonSantos-dev/VelasAromaticas) | [Preview StackBlitz](https://stackblitz.com/~/github.com/Nosrevi-tech/VelasAromaticas) | `Preview` |
-| **06** | **Fintrack** | Finanças pessoais | [GitHub](https://github.com/IversonSantos-dev/fintrack-digital-home) | [Demo Lovable](https://fintrackfinancas.lovable.app/) | `Preview` |
-| **07** | **Compartilhando Memórias** | Galeria colaborativa | [GitHub](https://github.com/IversonSantos-dev/compartilhandomemorias) | [Demo Lovable](https://compartilhandomemorias.lovable.app) | `Live` |
+| **05** | **Mercearia POS & Dashboard** | Automação comercial e POS | [GitHub](https://github.com/IversonSantos-dev/DashboardMercearia) | [Site Oficial](https://dashboardmercearia.netlify.app/) | `Live` |
+| **06** | **Velas Aromáticas** | E-commerce artesanal | [GitHub](https://github.com/IversonSantos-dev/VelasAromaticas) | [Preview StackBlitz](https://stackblitz.com/~/github.com/Nosrevi-tech/VelasAromaticas) | `Preview` |
+| **07** | **Fintrack** | Finanças pessoais | [GitHub](https://github.com/IversonSantos-dev/fintrack-digital-home) | [Demo Lovable](https://fintrackfinancas.lovable.app/) | `Preview` |
+| **08** | **Compartilhando Memórias** | Galeria colaborativa | [GitHub](https://github.com/IversonSantos-dev/compartilhandomemorias) | [Demo Lovable](https://compartilhandomemorias.lovable.app) | `Live` |
 
 ---
 

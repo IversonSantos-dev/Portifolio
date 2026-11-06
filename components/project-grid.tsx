@@ -15,8 +15,9 @@ const CATEGORIES: ProjectCategory[] = [
   "Planejamento de eventos",
   "Joalheria sacra e artesanato",
   "Logística e estoque",
-  "E-commerce artesanal",
+  "Automação comercial e POS",
   "NFT & Web3 Marketplace",
+  "E-commerce artesanal",
   "Finanças pessoais",
   "Galeria colaborativa",
 ];

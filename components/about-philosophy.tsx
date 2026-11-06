@@ -45,7 +45,7 @@ const CAREER_TIMELINE = [
     role: "Desenvolvedor de Software",
     company: "Projetos Independentes & Consultoria",
     highlight:
-      "Desenvolvimento de plataformas completas em produção: Casamento em Ordem, Mimos Ateliê, Separador de Produtos, Kurio NFT Marketplace e ferramentas colaborativas.",
+      "Desenvolvimento de plataformas completas em produção: Casamento em Ordem, Mimos Ateliê, Separador de Produtos, Mercearia POS & Dashboard, Kurio NFT Marketplace e ferramentas colaborativas.",
   },
   {
     period: "2022 — 2024",

@@ -129,7 +129,7 @@ export function Hero() {
         >
           <div>
             <div className="font-mono text-2xl sm:text-3xl font-medium text-white">
-              07+
+              08+
             </div>
             <div className="text-xs font-mono text-muted-foreground uppercase tracking-wider mt-1">
               Cases Desenvolvidos
